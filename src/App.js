@@ -13,6 +13,7 @@ const useStyles = makeStyles((theme) => ({
     height: '100vh',
     flexDirection: 'row',
     alignItems: 'center',
+    backgroundColor: 'hsl(0, 0%, 95%)',
     justifyContent: 'center',
     [theme.breakpoints.down('sm')]: {
       height: '100%',

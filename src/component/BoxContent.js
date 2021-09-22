@@ -53,24 +53,30 @@ const useStyles = makeStyles((theme) => ({
         padding: 10,
         fontFamily: `Lexend Deca, sans-serif`,
         '&.firstBox': {
+            color: 'hsl(31, 77%, 52%)',
             '&:hover': {
                 borderColor: '#ffff',
                 border: '1px solid',
-                backgroundColor: 'hsl(31, 77%, 52%)'
+                backgroundColor: 'hsl(31, 77%, 52%)',
+                color: '#ffff'
             },
         },
         '&.secondBox': {
+            color: 'hsl(184, 100%, 22%)',
             '&:hover': {
                 borderColor: '#ffff',
                 border: '1px solid',
-                backgroundColor: 'hsl(184, 100%, 22%)'
+                backgroundColor: 'hsl(184, 100%, 22%)',
+                color: '#ffff'
             },
         },
         '&.thirdBox': {
+            color: 'hsl(179, 100%, 13%)',
             '&:hover': {
                 borderColor: '#ffff',
                 border: '1px solid',
-                backgroundColor: 'hsl(179, 100%, 13%)'
+                backgroundColor: 'hsl(179, 100%, 13%)',
+                color: '#ffff'
             },
         },
     },
@@ -78,25 +84,6 @@ const useStyles = makeStyles((theme) => ({
         fontFamily: `Lexend Deca, sans-serif`,
         textTransform: 'none',
         fontWeight: 600,
-       
-        '&.firstBox': {
-            color: 'hsl(31, 77%, 52%)',
-            '&:hover': {
-                color: '#ffff'
-            },
-        },
-        '&.secondBox': {
-            color: 'hsl(184, 100%, 22%)',
-            '&:hover': {
-                color: '#ffff'
-            },
-        },
-        '&.thirdBox': {
-            color: 'hsl(179, 100%, 13%)',
-            '&:hover': {
-                color: '#ffff'
-            },
-        }
     }
 }))
 
